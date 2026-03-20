@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Strategy Landing Page</title>
+
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="fixed-top d-flex flex-column flex-lg-row w-100 site-header shadow-sm">
+        <div class="logo-area bg-white d-flex align-items-center justify-content-center px-4 ">
+            <a href="#" class="text-dark-navy text-decoration-none fs-2 logo-text">Logo</a>
+        </div>
+        <div class="nav-area bg-dark-navy flex-grow-1 d-flex align-items-center px-4 py-3 py-lg-0">
+            <nav class="navbar navbar-expand-lg navbar-dark w-100 p-0">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#mainNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 custom-nav-links gap-lg-1">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home.</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Pages.</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About.</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Services.</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Case.</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Blog.</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact.</a></li>
+                    </ul>
+                    <div class="d-flex align-items-center gap-3 mt-3 mt-lg-0 pb-2 pb-lg-0">
+                        <a href="#" class="icon-btn text-white text-decoration-none"><i
+                                class="fa-solid fa-paper-plane"></i></a>
+                        <a href="#" class="icon-btn text-white text-decoration-none"><i
+                                class="fa-solid fa-location-dot"></i></a>
+                        <a href="tel:2341096666"
+                            class="btn rounded-pill border text-white phone-btn d-flex align-items-center gap-2 px-4 py-2">
+                            <i class="fa-solid fa-phone fs-6"></i>
+                            <span class="fw-medium">(234) 109-6666</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero-wrapper section-padding position-relative py-0 mt-0">
+            <div class="hero-image-banner"></div>
+
+            <div class="hero-beige-bg">
+                <div class="container position-relative z-3 overlap-container">
+                    <div class="row align-items-center">
+                        <!-- Content Side -->
+                        <div class="col-lg-6 hero-text-col pe-lg-5 mb-5 mb-lg-0">
+                            <h1 class="display-4 fw-medium mb-4 mt-100 text-dark-navy pt-sm-80 lh-sm">
+                                <span class="reveal-wrap"><span class="reveal-text">Unleashing
+                                        Potential,</span></span><br>
+                                <span class="reveal-wrap"><span class="reveal-text delay-1">Maximizing
+                                        Growth.</span></span>
+                            </h1>
+                            <p class="lead text-muted mb-5 fs-5">
+                                We approach every client relationship with a unique and invigorating perspective,
+                                coupled with an unwavering energy that inspires action.
+                            </p>
+                            <a href="#" class="btn btn-dark-navy rounded-pill px-4 py-3 fw-medium">About Herrington</a>
+                        </div>
+
+                        <!-- Form Side -->
+                        <div class="col-lg-5 offset-lg-1 pt-lg-4">
+                            <div class="card floating-card text-white p-4 p-md-5">
+                                <h3 class="fw-normal mb-3">Book your Free Consultation</h3>
+                                <p class="small text-secondary mb-4 pb-2 form-subtitle">Fill out the form below, and
+                                    we'll arrange a consultation at a time most suitable for you.</p>
+                                <form id="consultationForm">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control custom-input" placeholder="*Full Name..."
+                                            required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control custom-input"
+                                            placeholder="*Email address..." required>
+                                    </div>
+                                    <div class="mb-4">
+                                        <textarea class="form-control custom-input" rows="4"
+                                            placeholder="Message..."></textarea>
+                                    </div>
+                                    <button type="submit"
+                                        class="btn btn-light w-100 py-3 rounded-2 fw-medium text-dark-navy mt-2">Submit
+                                        Request</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Auto-scrolling text ticker section -->
+        <section class="ticker-wrapper bg-white py-5 border-top border-bottom fade-in-up">
+            <div class="ticker-track">
+                <div class="ticker-content">
+                    <span class="fw-medium text-dark-navy">Something That Turns Hard-Earned Success Into Predictable
+                        Growth</span><span class="ticker-dot">•</span>
+                    <span class="fw-medium text-dark-navy">Unlock Your Company's True Potential</span><span
+                        class="ticker-dot">•</span>
+                    <span class="fw-medium text-dark-navy">Scale Their Companies Faster With Our Proven
+                        Blueprint</span><span class="ticker-dot">•</span>
+                    <span class="fw-medium text-dark-navy">Something That Turns Hard-Earned Success Into Predictable
+                        Growth</span><span class="ticker-dot">•</span>
+                    <span class="fw-medium text-dark-navy">Unlock Your Company's True Potential</span><span
+                        class="ticker-dot">•</span>
+                    <span class="fw-medium text-dark-navy">Scale Their Companies Faster With Our Proven
+                        Blueprint</span><span class="ticker-dot">•</span>
+                </div>
+                <!-- Duplicated for seamless scrolling -->
+                <div class="ticker-content">
+                    <span class="fw-medium text-dark-navy">Something That Turns Hard-Earned Success Into Predictable
+                        Growth</span><span class="ticker-dot">•</span>
+                    <span class="fw-medium text-dark-navy">Unlock Your Company's True Potential</span><span
+                        class="ticker-dot">•</span>
+                    <span class="fw-medium text-dark-navy">Scale Their Companies Faster With Our Proven
+                        Blueprint</span><span class="ticker-dot">•</span>
+                    <span class="fw-medium text-dark-navy">Something That Turns Hard-Earned Success Into Predictable
+                        Growth</span><span class="ticker-dot">•</span>
+                    <span class="fw-medium text-dark-navy">Unlock Your Company's True Potential</span><span
+                        class="ticker-dot">•</span>
+                    <span class="fw-medium text-dark-navy">Scale Their Companies Faster With Our Proven
+                        Blueprint</span><span class="ticker-dot">•</span>
+                </div>
+            </div>
+        </section>
+        <!-- Services Section Grid -->
+        <section class="strategy-section section-padding bg-dark-navy text-white">
+            <div class="container text-center mb-5 pb-4">
+                <h2 class="display-5 fw-medium mb-3">
+                    <span class="reveal-wrap"><span class="reveal-text">Best-In-Class Business Strategies</span></span>
+                </h2>
+                <p class="mx-auto strategy-subtitle">
+                    Get started with a proven process used by 7- and 8-figure firms to grow their companies faster, with
+                    more predictability, and create less dependence on key players.
+                </p>
+            </div>
+
+            <!-- Full Width Grid layout -->
+            <div class="container px-0">
+                <div class="row g-0">
+                    <!-- Row 1 -->
+                    <div class="col-lg-4 grid-item d-none d-lg-block">
+                        <div class="grid-img bg-img-blueprint"></div>
+
+                        <!-- Empty Grid Spacer -->
+                    </div>
+                    <div class="col-lg-4 grid-item">
+                        <div class="grid-text-card bg-card-beige">
+                            <h3>Sale</h3>
+                            <p>Generate sustainable growth with the right tools and a simple process for qualifying
+                                leads, converting them into sales.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 grid-item">
+                        <div class="grid-img bg-img-blueprint"></div>
+                    </div>
+
+                    <!-- Row 2 -->
+                    <div class="col-lg-4 grid-item">
+                        <div class="grid-text-card bg-card-beige">
+                            <h3>Marketing</h3>
+                            <p>Maximize your brand's reach and impact by implementing targeted, data-driven campaigns
+                                designed for measurable results.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 grid-item d-none d-lg-block">
+                        <div class="grid-img bg-img-meeting"></div>
+                    </div>
+                    <div class="col-lg-4 grid-item">
+                        <div class="grid-text-card bg-card-beige">
+                            <h3>Finance</h3>
+                            <p>Optimize resource management with proven financial structuring designed to eliminate
+                                waste and maximize net profitability.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+
+                    <!-- Row 3 -->
+                    <div class="col-lg-4 grid-item d-none d-lg-block">
+                        <div class="grid-img bg-img-presentation"></div>
+                    </div>
+                    <div class="col-lg-4 grid-item">
+                        <div class="grid-text-card bg-card-beige">
+                            <h3>Strategy</h3>
+                            <p>Build an unshakeable foundation for your enterprise with holistic operational
+                                restructuring that guarantees scale.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 grid-item d-none d-lg-block">
+                        <div class="grid-img bg-img-blueprint"></div>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/image/strategy-section.png" alt="" class="strategy-img">
+
+        </section>
+
+        <!-- Empowering Section -->
+        <section class="empower-section section-padding bg-light-gray">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Image Column -->
+                    <div class="col-lg-5 mb-5 mb-lg-0">
+                        <div class="empower-image-wrapper">
+                            <img src="assets/image/h6-6.webp" alt="Consulting Professional"
+                                class="img-fluid w-100 object-fit-cover shadow-sm">
+                        </div>
+                    </div>
+
+                    <!-- Content Column -->
+                    <div class="col-lg-6 offset-lg-1 text-dark-navy">
+                        <h2 class="display-6 fw-bold mb-4">
+                            <span class="reveal-wrap"><span class="reveal-text">Empowering businesses through
+                                    strategic consulting</span>
+                        </h2>
+                        <p class="fw-medium mb-4 fs-6 lh-lg text-dark">
+                            At Herrington, we are a renowned global consulting firm committed to collaborating with
+                            business and societal leaders in overcoming their most critical challenges and seizing their
+                            greatest opportunities.
+                        </p>
+
+                        <hr class="empower-divider mb-4">
+
+                        <div class="row mt-4 pt-2">
+                            <!-- Text content -->
+                            <div class="col-md-7 mb-4 mb-md-0 pe-md-4">
+                                <p class="text-muted small lh-lg mb-3">
+                                    We care about your business and we're here if you need help finding a solution to
+                                    match your business needs. Fast access to flexible funding solutions.
+                                </p>
+                                <p class="text-muted small lh-lg mb-4">
+                                    Maecenas hendrerit mattis nulla, non sagittis nisl fringilla gravida. Etiam congue
+                                    auctor lectus non elementum. Duis libero quam, feugiat sit amet ante pretium.
+                                </p>
+                                <a href="#" class="btn btn-dark-navy rounded-0 px-4 py-3 fw-medium border-0"
+                                    style="font-size: 0.9rem;">More About Us</a>
+                            </div>
+
+                            <!-- Stat Card -->
+                            <div class="col-md-5">
+                                <div
+                                    class="stat-card h-100 d-flex flex-column align-items-center justify-content-center text-center p-4">
+                                    <i class="fa-solid fa-box-open fs-2 mb-3 text-dark-navy"></i>
+                                    <h3 class="display-3 fw-bold mb-1"><span class="count-up"
+                                            data-target="28">0</span><sup class="fs-4">+</sup></h3>
+                                    <p class="small text-dark-navy mb-0 lh-base fw-medium">years of experience<br>since
+                                        at 1996</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Elegant Services Slider Section -->
+        <section class="services-slider-section">
+            <div class="row g-0 h-100">
+                <!-- Left Panel -->
+                <div
+                    class="col-lg-4 services-left-panel d-flex flex-column justify-content-between align-items-center position-relative pe-lg-4">
+                    <div class="services-left-content z-1">
+                        <h6 class="text-uppercase tracking-widest text-light-gray mb-4 small fw-bold">Explore Our
+                            Services</h6>
+                        <h2 class="display-5 fw-bold text-white mb-4 lh-base blur-reveal">Strategic Minds,<br>Proven
+                            Results.</h2>
+                        <p class="text-light-gray mb-5 pe-lg-3 lh-lg">
+                            We provide the best services, ensuring your outstanding growth. Lorem ipsum dolor sit amet,
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right Panel (Cards Area) -->
+                <div class="col-lg-8 services-right-panel position-relative overflow-hidden">
+                    <div class="services-slider-track" id="servicesSliderTrack">
+
+                        <!-- Card 1 -->
+                        <div class="service-card-wrapper">
+                            <div class="service-card text-center d-flex flex-column h-100">
+                                <div class="service-image-container mx-auto">
+                                    <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&q=80"
+                                        alt="Financial Management" class="img-fluid object-fit-cover w-100 h-100">
+                                </div>
+                                <h4 class="fw-bold mb-3 text-dark-navy">Financial Management</h4>
+                                <p class="text-muted small lh-lg mb-4 flex-grow-1 px-3">
+                                    Ut convallis nisl id turpis ultrices, commodo scelerisque ligula semper. Proin
+                                    tincidunt libero ac vehicula egestas.
+                                </p>
+                                <a href="#" class="btn btn-dark-navy w-100 py-3 rounded-0 fw-medium mt-auto"
+                                    style="font-size: 0.9rem;">Learn More</a>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="service-card-wrapper">
+                            <div class="service-card text-center d-flex flex-column h-100">
+                                <div class="service-image-container mx-auto">
+                                    <img src="https://images.unsplash.com/photo-1542744173-05336fcc7ad4?w=800&q=80"
+                                        alt="Risk Management" class="img-fluid object-fit-cover w-100 h-100">
+                                </div>
+                                <h4 class="fw-bold mb-3 text-dark-navy">Risk Management</h4>
+                                <p class="text-muted small lh-lg mb-4 flex-grow-1 px-3">
+                                    Ut convallis nisl id turpis ultrices, commodo scelerisque ligula semper. Proin
+                                    tincidunt libero ac vehicula egestas.
+                                </p>
+                                <a href="#" class="btn btn-dark-navy w-100 py-3 rounded-0 fw-medium mt-auto"
+                                    style="font-size: 0.9rem;">Learn More</a>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="service-card-wrapper">
+                            <div class="service-card text-center d-flex flex-column h-100">
+                                <div class="service-image-container mx-auto">
+                                    <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?w=800&q=80"
+                                        alt="Portfolio Management" class="img-fluid object-fit-cover w-100 h-100">
+                                </div>
+                                <h4 class="fw-bold mb-3 text-dark-navy">Portfolio Management</h4>
+                                <p class="text-muted small lh-lg mb-4 flex-grow-1 px-3">
+                                    Ut convallis nisl id turpis ultrices, commodo scelerisque ligula semper. Proin
+                                    tincidunt libero ac vehicula egestas.
+                                </p>
+                                <a href="#" class="btn btn-dark-navy w-100 py-3 rounded-0 fw-medium mt-auto"
+                                    style="font-size: 0.9rem;">Learn More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Solving Challenges Section -->
+        <section class="challenges-section section-padding bg-light-gray-alt border-top">
+            <div class="container">
+                <div class="row align-items-stretch gx-lg-0">
+                    <!-- Image with Play Button Column -->
+                    <div class="col-lg-6 mb-4 mb-lg-0 p-0">
+                        <div class="challenges-image-wrapper h-100 position-relative w-100 pe-lg-4">
+                            <!-- Overlay to give the image that warm vintage tone as in design -->
+                            <div class="position-absolute top-0 start-0 w-100 h-100 pe-lg-4"
+                                style="background-color: rgba(60, 40, 20, 0.15); z-index: 1;"></div>
+                            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1000&q=80"
+                                alt="Consultation Meeting" class="img-fluid w-100 h-100 object-fit-cover">
+
+                        </div>
+                    </div>
+
+                    <!-- Content Column -->
+                    <div class="col-lg-6 p-0">
+                        <div
+                            class="challenges-content-card bg-white h-100 p-4 p-md-5 d-flex flex-column justify-content-center border border-light shadow-sm">
+                            <div class="d-flex align-items-start mb-4 pb-2">
+                                <!-- Half moon / abstract icon -->
+                                <h2 class="display-6 fw-bold text-dark-navy mb-0 lh-base">
+                                    <span class="reveal-wrap"><span class="reveal-text">Solving
+                                            Challenges,</span></span><br>
+                                    <span class="reveal-wrap"><span class="reveal-text delay-1">Creating
+                                            Opportunities.</span></span>
+                                </h2>
+                            </div>
+
+                            <p class="text-muted mb-5 lh-lg" style="font-size: 0.95rem;">
+                                Our Consultants provide the highest quality advice and technical support and will assist
+                                your organization by thoroughly assessing your IT infrastructure and recommending the
+                                best.
+                            </p>
+
+                            <!-- Checklist -->
+                            <div class="row g-3 mb-5">
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled mb-0 challenges-list">
+                                        <li class="mb-3 d-flex text-dark-navy fw-medium align-items-center"
+                                            style="font-size: 0.85rem;">
+                                            <i class="fa-solid fa-check me-2 fs-6"></i> A Robust Brand Identity
+                                        </li>
+                                        <li class="d-flex text-dark-navy fw-medium align-items-center"
+                                            style="font-size: 0.85rem;">
+                                            <i class="fa-solid fa-check me-2 fs-6"></i> Effective Retail Marketing
+                                            Strategies
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled mb-0 challenges-list">
+                                        <li class="mb-3 d-flex text-dark-navy fw-medium align-items-center"
+                                            style="font-size: 0.85rem;">
+                                            <i class="fa-solid fa-check me-2 fs-6"></i> Retail Search Engine
+                                            Optimization
+                                        </li>
+                                        <li class="d-flex text-dark-navy fw-medium align-items-center"
+                                            style="font-size: 0.85rem;">
+                                            <i class="fa-solid fa-check me-2 fs-6"></i> Managed Paid Advertising
+                                            Campaigns
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Action Buttons -->
+                            <div class="d-flex flex-column flex-sm-row gap-3">
+                                <a href="#"
+                                    class="btn btn-dark-navy rounded-0 px-4 py-3 fw-medium flex-grow-1 text-center"
+                                    style="font-size: 0.9rem;">More Why Choose Us</a>
+                                <a href="#"
+                                    class="btn btn-dark-navy rounded-0 px-4 py-3 fw-medium flex-grow-1 text-center"
+                                    style="font-size: 0.9rem;">Our Mission And Value</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Industries Section -->
+        <section class="industries-section fade-in-up section-padding pb-0" style="background-color: #f8f8f8;">
+            <div class="container pe-lg-0">
+                <div class="row align-items-center">
+                    <!-- Content Column -->
+                    <div class="col-lg-6 mb-5 mb-lg-0 pe-lg-5">
+                        <h6 class="text-uppercase tracking-widest text-muted mb-4 small fw-bold">Industries We Help</h6>
+                        <h2 class="display-5 fw-bold text-dark-navy mb-4 lh-base">
+                            <span class="reveal-wrap"><span class="reveal-text">Solve Financial Challenge in Every
+                                    Industry</span></span>
+                        </h2>
+                        <p class="text-muted mb-5 lh-lg" style="font-size: 0.95rem;">
+                            We wanted to send you our deep appreciation for all the hard work you and your team have put
+                            in to help us achieve this important milestone! Special thanks to Susan and Vaibhav who have
+                            guided us through the process in such a dedicated
+                        </p>
+
+                        <!-- Two Column List -->
+                        <div class="row g-4 mb-5">
+                            <div class="col-sm-6">
+                                <ul class="list-unstyled mb-0 industries-list">
+                                    <li class="mb-3 text-dark-navy fw-bold text-uppercase">Advanced Manufacturing</li>
+                                    <li class="mb-3 text-dark-navy fw-bold text-uppercase">Automotive & Mobility</li>
+                                    <li class="text-dark-navy fw-bold text-uppercase">Technology</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                <ul class="list-unstyled mb-0 industries-list">
+                                    <li class="mb-3 text-dark-navy fw-bold text-uppercase">Defense & Government Services
+                                    </li>
+                                    <li class="mb-3 text-dark-navy fw-bold text-uppercase">Telecommunications</li>
+                                    <li class="text-dark-navy fw-bold text-uppercase">Financial Services</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn btn-dark-navy rounded-0 px-4 py-3 fw-medium"
+                            style="font-size: 0.9rem;">Read More Industrial</a>
+                    </div>
+
+                    <!-- Image Column -->
+                    <div class="col-lg-6 ps-lg-5">
+                        <div class="industries-image-wrapper h-100">
+                            <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=1000&q=80"
+                                alt="Business Professionals" class="img-fluid w-100 object-fit-cover shadow-sm"
+                                alt="Business Professionals" class="img-fluid w-100 object-fit-cover shadow-sm">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonials Section -->
+            <section class="testimonials-section section-padding fade-in-up">
+                <div class="container">
+                    <div class="text-center">
+                        <h2 class="display-6 fw-bold text-dark-navy mb-5">Client's Testimonials</h2>
+                    </div>
+
+                    <!-- Testimonial Content Box -->
+                    <div class="row g-0 testimonial-box shadow-sm mx-auto text-start" id="testimonialBox">
+                        <!-- Image Column -->
+                        <div class="col-lg-5 position-relative testimonial-img-col">
+                            <img src="assets/image/h6-9.webp" alt="Happy Client" id="testimonialImage"
+                                class="img-fluid w-100 h-100 object-fit-cover">
+                            <!-- Stat Box Overlay -->
+                            <div class="testimonial-stat-box position-absolute bottom-0 start-0 text-white p-4 p-xl-4">
+                                <h3 class="display-4 fw-medium mb-2 lh-1 d-block">
+
+                                    <span id="testimonialStatNum">98.3</span><sup class="fs-4">%</sup>
+                                </h3>
+                                <h6 id="testimonialStatLabel"
+                                    class="text-uppercase tracking-widest small d-block fw-bold mb-0 text-white-50">
+                                    Happy Customer</h6>
+                            </div>
+                        </div>
+
+                        <!-- Content Column -->
+                        <div id="testimonialContentBox"
+                            class="col-lg-7 testimonial-content-col p-4 p-md-5 p-lg-5 d-flex flex-column justify-content-between position-relative">
+                            <div class="mb-4 pt-lg-2">
+                                <div class="d-flex align-items-center mb-1">
+                                    <h6 id="testimonialName" class="fw-bold text-dark-navy mb-0 me-3">Jonathan Cheng
+                                    </h6>
+                                    <div class="text-dark-navy">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <p id="testimonialRole" class="small fw-medium mb-0">Merits
+                                    Health Products Co., Ltd.</p>
+                            </div>
+
+                            <div class="testimonial-quote mt-4 mb-4 mb-lg-5 pe-lg-4 position-relative">
+                                <p class="fs-5 text-dark-navy fw-medium lh-lg mb-0 ps-3">
+                                    <span
+                                        class="position-absolute fs-3 fw-bold text-dark-navy testimonial-quote-left">&ldquo;</span>
+                                    <span id="testimonialQuoteText">
+                                        We wanted to send you our deep appreciation for all the hard work you
+                                        and your team have put in to help us achieve this important milestone!
+                                        Special thanks to Susan and Vaibhav who have guided us through the
+                                        process in such a dedicated.
+                                    </span>
+                                    <span
+                                        class="fs-4 fw-bold text-dark-navy position-relative testimonial-quote-right">&rdquo;</span>
+                                </p>
+                            </div>
+
+                            <!-- Navigation Buttons -->
+                            <div class="testimonial-nav d-flex justify-content-end gap-3 mt-auto pb-lg-2">
+                                <button
+                                    class="btn btn-outline-dark-navy btn-nav-circle rounded-circle d-flex align-items-center justify-content-center p-0 test-prev"
+                                    aria-label="Previous">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </button>
+                                <button
+                                    class="btn btn-outline-dark-navy btn-nav-circle rounded-circle d-flex align-items-center justify-content-center p-0 test-next"
+                                    aria-label="Next">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Collaborate Section -->
+            <section class="cta-collaborate-section fade-in-up">
+                <div class="container h-100">
+                    <div class="row align-items-center h-100 cta-row">
+                        <div class="col-lg-6 col-md-8 text-start cta-text-col pe-lg-5">
+                            <h2 class="fw-bold text-dark-navy cta-title mb-4">Let's Collaborate with Us!</h2>
+                            <p class="mb-5 lh-lg cta-paragraph">
+                                From an early stage start-up's growth strategies to helping existing businesses, we have
+                                done it all! The results speak for themselves. Our services work.
+                            </p>
+                            <a href="#" class="btn btn-dark-navy rounded-pill fw-medium">Let's Develop Together</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="site-footer bg-footer-dark text-white position-relative fade-in-up border-top-0">
+        <div class="container pt-5 pb-4">
+            <!-- Top Row: Logo & Socials -->
+            <div class="row align-items-center mb-5 pb-4 border-bottom border-light border-opacity-10">
+                <div class="col-md-4 mb-3 mb-md-0 pt-2">
+                    <h2 class="fw-bold mb-1 lh-1">retio..</h2>
+                    <span class="text-white-50 footer-subtitle">Business Consulting Agency</span>
+                </div>
+                <div class="col-md-8 text-md-end text-start">
+                    <ul class="list-inline mb-0 footer-socials">
+                        <li class="list-inline-item"><a href="#" class="text-white-50 footer-link">Facebook</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white-50 footer-link">Twitter / X</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white-50 footer-link">Instagrams</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white-50 footer-link">Skype</a></li>
+                        <li class="list-inline-item m-0"><a href="#" class="text-white-50 footer-link">Telegrams</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Middle Row: Columns -->
+            <div class="row gx-lg-5 mb-5 pb-2">
+                <!-- Column 1: Contact -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 footer-col fade-in-up">
+                    <h5 class="fw-bold mb-4">Contact With Us!</h5>
+                    <ul class="list-unstyled text-white-50 mb-0 footer-text-small">
+                        <li class="mb-3">2220 Plymouth Rd #302<br>Hopkins, Minnesota(MN), 55305</li>
+                        <li class="mb-3">Call us: (234) 109-6666</li>
+                        <li class="mb-3">Mail: retioconsulting@gmail.com</li>
+                        <li>Mon - Sat: 8.00am - 18.00pm / Holiday : Closed</li>
+                    </ul>
+                </div>
+
+                <!-- Column 2: Links -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 footer-col fade-in-up">
+                    <h5 class="fw-bold mb-4">Services Quick Links</h5>
+                    <ul class="list-unstyled text-white-50 mb-0 footer-text-small">
+                        <li class="mb-3"><a href="#" class="text-white-50 footer-link">Online Business Consulting</a>
+                        </li>
+                        <li class="mb-3"><a href="#" class="text-white-50 footer-link">Portfolio Management</a></li>
+                        <li class="mb-3"><a href="#" class="text-white-50 footer-link">Search Engine Optimization</a>
+                        </li>
+                        <li class="mb-3"><a href="#" class="text-white-50 footer-link">Managed IT Services</a></li>
+                        <li><a href="#" class="text-white-50 footer-link">Conversion Optimization</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Newsletter -->
+                <div class="col-lg-4 col-md-12 footer-col fade-in-up">
+                    <h5 class="fw-bold mb-4">Subscribe Newsletter</h5>
+                    <form class="mb-4 position-relative">
+                        <input type="email"
+                            class="form-control bg-white bg-opacity-10 border-0 text-white px-4 py-3 footer-input"
+                            placeholder="Don't miss the latest news from us...">
+                        <button type="button"
+                            class="btn btn-link text-white position-absolute top-50 end-0 translate-middle-y text-decoration-none pe-3 shadow-none">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </form>
+                    <div class="d-flex align-items-start text-white-50 footer-newsletter-text">
+                        <div
+                            class="footer-icon-circle rounded-circle d-flex me-3 flex-shrink-0 align-items-center justify-content-center">
+                            <i class="fa-solid fa-bell text-white fs-6"></i>
+                        </div>
+                        <p class="mb-0">Please sign up to follow the latest news and events from us, we promise not to
+                            spam your inbox.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Row: Copyright -->
+            <div
+                class="row pt-4 border-top border-light border-opacity-10 align-items-center text-white-50 footer-copyright-text">
+                <div class="col-md-6 mb-3 mb-md-0 text-center text-md-start">
+                    Copyright &copy; 2026 Graviton by <span class="text-white fw-medium">BravisThemes</span>. All Rights
+                    Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="#" class="text-white-50 footer-link">Confidentiality &
+                                Privacy</a></li>
+                        <li class="list-inline-item mx-2 text-white-50 opacity-50">|</li>
+                        <li class="list-inline-item"><a href="#" class="text-white-50 footer-link">Legal Information</a>
+                        </li>
+                        <li class="list-inline-item mx-2 text-white-50 opacity-50">|</li>
+                        <li class="list-inline-item"><a href="#" class="text-white-50 footer-link">Return and Refund
+                                Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
